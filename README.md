@@ -1,3 +1,3 @@
-# Products-React: Solution
+# Products App: Solution
 
-![](products-react.gif)
+![](https://git.generalassemb.ly/bruno/assets/blob/master/products-react.gif)
