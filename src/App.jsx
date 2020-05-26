@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="app">
       <Switch>
-        <Route exact path="/" render={props => <Products />} />
+        <Route exact path="/" component={Products} />
         <Route exact path="/products/:id" component={ProductDetail} />
       </Switch>
     </div>
