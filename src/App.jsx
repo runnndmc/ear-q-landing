@@ -1,15 +1,19 @@
 import React from 'react'
 import './App.css'
-import Products from './components/Products'
-import ProductDetail from './components/ProductDetail'
+import Products from './components/Products/Products'
+import ProductDetail from './components/ProductDetail/ProductDetail'
 import { Route, Switch } from 'react-router-dom'
 
 const App = () => {
   return (
     <div className="app">
       <Switch>
-        <Route exact path="/" component={Products} />
-        <Route exact path="/products/:id" component={ProductDetail} />
+        <Route exact path="/">
+          <Products />
+        </Route>
+        <Route exact path="/products/:id">
+          <ProductDetail />
+        </Route>
       </Switch>
     </div>
   )

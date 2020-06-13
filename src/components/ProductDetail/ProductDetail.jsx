@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './ProductDetail.css'
-import Layout from './shared/Layout'
-import productsJSON from '../data/products.json'
+import Layout from '../shared/Layout'
+import productsJSON from '../../data/products.json'
 
 class ProductDetail extends Component {
     constructor(props) {
