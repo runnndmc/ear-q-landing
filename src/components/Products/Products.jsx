@@ -25,7 +25,7 @@ class Products extends Component {
   }
 
   handleSearch = event => {
-    const sort = () => this.sort(this.state.sortType)
+    const sort = () => this.handleSort(this.state.sortType)
     const queriedProducts = this.state.products.filter(product => product.name.toLowerCase().includes(event.target.value.toLowerCase()))
     this.setState({ queriedProducts }, sort)
   }
@@ -71,7 +71,6 @@ class Products extends Component {
         <Search onSubmit={this.handleSubmit} onChange={this.handleSearch} />
         <Sort onSubmit={this.handleSubmit} onChange={this.handleSort} />
         <div className="products">
-          {console.log('rerendering')}
           {productsJSX}
         </div>
       </Layout>

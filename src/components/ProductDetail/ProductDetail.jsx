@@ -15,7 +15,7 @@ class ProductDetail extends Component {
         }
     }
 
-    async componentDidMount() {
+    componentDidMount() {
         const { id } = this.props.match.params
         const product = productsJSON.filter(product => product._id === id)
         this.setState({ product: product[0] })
@@ -26,7 +26,7 @@ class ProductDetail extends Component {
         return (
             <Layout>
                 <div className="product-detail">
-                    <img className="product-detail-image" src={product.imgURL} alt={product.name} />
+                    <img className="product-detail-image" src={`/assets/images/${product.imgURL}`} alt={product.name} />
                     <div className="detail">
                         <div className="name">{product.name}</div>
                         <div className="price">{`$${product.price}`}</div>
