@@ -32,7 +32,7 @@ class Products extends Component {
 
   handleSort = type => {
     this.setState({ sortType: type })
-    const { queriedProducts } = this.state;
+    const { queriedProducts } = this.state
     switch (type) {
       case "name-ascending":
         this.setState({
