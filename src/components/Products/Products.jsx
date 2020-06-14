@@ -39,22 +39,22 @@ class Products extends Component {
         this.setState({
           queriedProducts: AZ(queriedProducts)
         });
-        break;
+        break
       case "name-descending":
         this.setState({
           queriedProducts: ZA(queriedProducts)
         });
-        break;
+        break
       case "price-ascending":
         this.setState({
           queriedProducts: lowestFirst(queriedProducts)
         });
-        break;
+        break
       case "price-descending":
         this.setState({
           queriedProducts: highestFirst(queriedProducts)
         });
-        break;
+        break
       default:
         break
     }
