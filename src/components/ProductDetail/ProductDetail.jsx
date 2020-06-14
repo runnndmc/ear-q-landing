@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './ProductDetail.css'
 import Layout from '../shared/Layout'
-import productsJSON from '../../data/products.json'
+import axios from 'axios'
 
 class ProductDetail extends Component {
     constructor(props) {
@@ -15,10 +15,11 @@ class ProductDetail extends Component {
         }
     }
 
-    componentDidMount() {
+    async componentDidMount() {
         const { id } = this.props.match.params
-        const product = productsJSON.filter(product => product._id === id)
-        this.setState({ product: product[0] })
+        const response = await axios(`https://products-api-01.herokuapp.com/products/${id}`)
+        const product = response.data
+        this.setState({ product })
     }
 
     render() {
@@ -26,7 +27,7 @@ class ProductDetail extends Component {
         return (
             <Layout>
                 <div className="product-detail">
-                    <img className="product-detail-image" src={`/assets/images/${product.imgURL}`} alt={product.name} />
+                    <img className="product-detail-image" src={product.imgURL} alt={product.name} />
                     <div className="detail">
                         <div className="name">{product.name}</div>
                         <div className="price">{`$${product.price}`}</div>
