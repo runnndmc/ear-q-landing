@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import './Products.css'
 
-import Product from '../Product/Product'
-import Search from '../Search/Search'
+import Product from '../../components/Product/Product'
+import Search from '../../components/Search/Search'
 import { AZ, ZA, lowestFirst, highestFirst } from "../../utils/sort"
-import Sort from '../Sort/Sort'
-import Layout from '../shared/Layout'
+import Sort from '../../components/Sort/Sort'
+import Layout from '../../components/shared/Layout'
 import { getProducts } from '../../services/products'
 
 class Products extends Component {

@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import Products from './components/Products/Products'
-import ProductDetail from './components/ProductDetail/ProductDetail'
+import Products from './screens/Products/Products'
+import ProductDetail from './screens/ProductDetail/ProductDetail'
 import { Route, Switch } from 'react-router-dom'
 
 const App = () => {
