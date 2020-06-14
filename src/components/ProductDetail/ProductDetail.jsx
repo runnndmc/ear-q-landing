@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './ProductDetail.css'
 import Layout from '../shared/Layout'
-import axios from 'axios'
+import { getProduct } from '../../services/products'
 
 class ProductDetail extends Component {
     constructor(props) {
@@ -17,8 +17,7 @@ class ProductDetail extends Component {
 
     async componentDidMount() {
         const { id } = this.props.match.params
-        const response = await axios(`https://products-api-01.herokuapp.com/products/${id}`)
-        const product = response.data
+        const product = await getProduct(id)
         this.setState({ product })
     }
 

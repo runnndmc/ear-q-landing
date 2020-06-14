@@ -6,7 +6,7 @@ import Search from '../Search/Search'
 import { AZ, ZA, lowestFirst, highestFirst } from "../../utils/sort"
 import Sort from '../Sort/Sort'
 import Layout from '../shared/Layout'
-import axios from 'axios'
+import { getProducts } from '../../services/products'
 
 class Products extends Component {
   constructor() {
@@ -19,8 +19,7 @@ class Products extends Component {
   }
 
   async componentDidMount() {
-    const response = await axios('https://products-api-01.herokuapp.com/products')
-    const products = response.data
+    const products = await getProducts()
     this.setState({ products })
     this.setState({ queriedProducts: products })
   }
