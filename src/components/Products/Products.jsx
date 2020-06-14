@@ -12,21 +12,23 @@ class Products extends Component {
   constructor() {
     super()
     this.state = {
-      products: [],
+      allProducts: [],
       queriedProducts: [],
       sortType: ''
     }
   }
 
   async componentDidMount() {
-    const products = await getProducts()
-    this.setState({ products })
-    this.setState({ queriedProducts: products })
+    const allProducts = await getProducts()
+    this.setState({ 
+      allProducts: allProducts,
+      queriedProducts: allProducts 
+    })
   }
 
   handleSearch = event => {
     const sort = () => this.handleSort(this.state.sortType)
-    const queriedProducts = this.state.products.filter(product => product.name.toLowerCase().includes(event.target.value.toLowerCase()))
+    const queriedProducts = this.state.allProducts.filter(product => product.name.toLowerCase().includes(event.target.value.toLowerCase()))
     this.setState({ queriedProducts }, sort)
   }
 
