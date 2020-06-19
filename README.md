@@ -54,5 +54,5 @@ We also have a folder in our components folder called `shared`:
 
 <img src="https://i.ibb.co/0X8RhK3/Screen-Shot-2020-06-19-at-3-58-35-PM.png">
 
-This `shared` folder consists of reusable react components that are used in more than one component.
+This `shared` folder consists of reusable react components that are used in more than one component. Notice that the `Layout` component is used in both the `Products` component and the `ProductDetail` component. The `Layout` component holds both the `Nav` component and the `Footer` component.
 
