@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './ProductDetail.css'
-import Layout from './shared/Layout'
-import productsJSON from '../data/products.json'
+import Layout from '../../components/shared/Layout/Layout'
+import { getProduct } from '../../services/products'
 
 class ProductDetail extends Component {
     constructor(props) {
@@ -17,8 +17,8 @@ class ProductDetail extends Component {
 
     async componentDidMount() {
         const { id } = this.props.match.params
-        const product = productsJSON.filter(product => product._id === id)
-        this.setState({ product: product[0] })
+        const product = await getProduct(id)
+        this.setState({ product })
     }
 
     render() {
