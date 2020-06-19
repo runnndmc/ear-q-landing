@@ -30,13 +30,19 @@ Let's start with the `screens` folder:
 The react components inside this folder represent all of the "screens" in our app. We could say we have two screens in our app: the screen that shows all the products (Products.jsx) and when you click on a product you get the screen with a specific product (ProductDetail.jsx)
 > Remember: Our react app is a Single Page Application (SPA) that means it's all on one page... that is why we use the word "screens" and not "pages"
 
+##
+
 ### Products Screen
 
 <img src="https://i.ibb.co/R9p01ML/Screen-Shot-2020-06-19-at-3-45-04-PM.png">
 
+##
+
 ### Product Detail Screen
 
 <img src="https://i.ibb.co/MBMjRmt/Screen-Shot-2020-06-19-at-3-45-31-PM.png">
+
+##
 
 Ok cool. Now let's look to see what's inside our `components` folder:
 
