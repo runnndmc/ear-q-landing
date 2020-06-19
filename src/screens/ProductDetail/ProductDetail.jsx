@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './ProductDetail.css'
-import Layout from '../../components/shared/Layout'
+import Layout from '../../components/shared/Layout/Layout'
 import { getProduct } from '../../services/products'
 
 class ProductDetail extends Component {
