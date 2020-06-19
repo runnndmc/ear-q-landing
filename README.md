@@ -27,7 +27,7 @@ Let's start with the `screens` folder:
 
 <img src="https://i.ibb.co/RgS5XfG/Screen-Shot-2020-06-19-at-3-40-19-PM.png">
 
-The react components inside this folder represent all the "screens" in our app. We could say we have two screens in our app: the screen with all the products (Products.jsx) and when you click on a product you get the screen with a specific product (ProductDetail.jsx)
+The react components inside this folder represent all the "screens" in our app. We could say we have two screens in our app: the screen that shows all the products (Products.jsx) and when you click on a product you get the screen with a specific product (ProductDetail.jsx)
 > Remember: Our react app is a Single Page Application (SPA) that means it's all on one page... that is why we use the word "screens" and not "pages"
 
 ### Products Screen
