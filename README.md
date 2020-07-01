@@ -7,10 +7,6 @@
 1. Fork
 2. Clone
 
-# Component Architecture
-
-There are many different ways to organize our folder structure for our react app. As our app grows it is important to organize our react app in a meaningful way that will allow the app to scale. So far we've spent one week working on a react app (project 2) and your codebase grew. What would happen if you worked on the same app for six months? or three years? How large would the codebase be? Now what would happened if you worked on the same codebase for years with many other developers!? That codebase would get quite large pretty fast. We need a way to organize our app to accommodate this ecosystem. This is where, as a team, you agree on a set of conventions that you will follow to architect your react app. In this lesson we will cover some of the popular conventions that we have seen out there in the software community.
-
 ## Learning Objectives
 
 By the end of this, developers should be able to:
@@ -20,6 +16,10 @@ By the end of this, developers should be able to:
 - Implement react's `props.children` in a shared layout
 
 Let's get started!
+
+# Component Architecture
+
+There are many different ways to organize our folder structure for our react app. As our app grows it is important to organize our react app in a meaningful way that will allow the app to scale. So far we've spent one week working on a react app (project 2) and your codebase grew. What would happen if you worked on the same app for six months? or three years? How large would the codebase be? Now what would happened if you worked on the same codebase for years with many other developers!? That codebase would get quite large pretty fast. We need a way to organize our app to accommodate this ecosystem. This is where, as a team, you agree on a set of conventions that you will follow to architect your react app. In this lesson we will cover some of the popular conventions that we have seen out there in the software community.
 
 Notice the folder structure:
 
