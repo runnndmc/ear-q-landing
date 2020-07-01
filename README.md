@@ -50,7 +50,7 @@ Ok cool. Now let's look to see what's inside our `components` folder:
 
 <img src="https://i.ibb.co/M9GPBXM/Screen-Shot-2020-06-19-at-3-37-53-PM.png">
 
-Here we have react components that are **used to build our screens**. Notice we have `Product`, `Search`, and `Sort` which are used in the `Products` component.
+Here we have react components that are **used to help build our screens**. Notice we have `Product`, `Search`, and `Sort` which are used in the `Products` component.
 
 We also have a folder in our components folder called `shared`:
 
