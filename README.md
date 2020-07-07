@@ -21,7 +21,7 @@ There are many different ways to organize our folder structure for our react app
 
 Let's get started!
 
-Notice the folder structure:
+Notice the folder structure (more details can be found at the bottom of this README):
 
 <img src="https://i.ibb.co/jTstLRz/Screen-Shot-2020-06-19-at-3-34-27-PM.png">
 
@@ -58,3 +58,59 @@ We also have a folder in our components folder called `shared`:
 
 This `shared` folder consists of reusable react components that are used in more than one component. Notice that the `Layout` component is used in both the `Products` component **and** the `ProductDetail` component. The `Layout` component holds both the `Nav` component and the `Footer` component.
 
+## File Structure
+```
+. // Our current directory, represented by the '.' symbol.
+├── README.md
+├── package-lock.json
+├── package.json
+├── products-react.gif
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.jsx // This is the brain of our application, where our screens will be rendered (inside of a <Route />), and data will be stored to pass down to all necessary screens below.
+    ├── App.test.js
+    ├── components // This folder is for non-top level components, i.e. things rendered within one of the screens.
+    │   ├── Product // For each component, we have an individual folder with a unique .jsx and .css file per component.
+    │   │   ├── Product.css
+    │   │   └── Product.jsx
+    │   ├── Search
+    │   │   ├── Search.css
+    │   │   └── Search.jsx
+    │   ├── Sort
+    │   │   ├── Sort.css
+    │   │   └── Sort.jsx
+    │   └── shared // This folder is for components that will appear across all screens.
+    │       ├── Footer
+    │       │   ├── Footer.css
+    │       │   └── Footer.jsx
+    │       ├── Layout
+    │       │   ├── Layout.css
+    │       │   └── Layout.jsx
+    │       └── Nav
+    │           ├── Nav.css
+    │           └── Nav.jsx
+    ├── index.css
+    ├── index.js
+    ├── screens // This folder is for top-level components, i.e. components rendered in a <Route /> in App.js.
+    │   ├── ProductDetail
+    │   │   ├── ProductDetail.css
+    │   │   └── ProductDetail.jsx
+    │   └── Products
+    │       ├── Products.css
+    │       └── Products.jsx
+    ├── serviceWorker.js
+    ├── services // This folder is for API calls.
+    │   └── products.js
+    ├── setupTests.js
+    └── utils // This folder is for helper functions, such as sorts.
+        └── sort.js
+
+15 directories, 35 files
+```
