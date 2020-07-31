@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import './ProductDetail.css'
 import Layout from '../../components/shared/Layout/Layout'
@@ -11,15 +11,15 @@ const ProductDetail = (props) => {
     imgURL: ''
   })
 
-  const fetchProduct = async () => {
-    const { id } = useParams()
-    const product = await getProduct(id)
-    setProduct(product)
-  }
+  const { id } = useParams()
 
   useEffect(() => {
+    const fetchProduct = async () => {
+      const product = await getProduct(id)
+      setProduct(product)
+    }
     fetchProduct()
-  }, []);
+  }, [id])
 
   return (
     <Layout>
