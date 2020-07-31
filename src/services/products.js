@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiUrl = `https://products-api-constellations.herokuapp.com`
+const apiUrl = `https://products-api-01.herokuapp.com/api`
 
 export const getProducts = async () => {
   try {
