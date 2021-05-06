@@ -1,6 +1,6 @@
 .second-sell{
     display: flex;
-
+    margin-top: 30px;
 }
 .selling-point {
     display: flex;
@@ -35,7 +35,7 @@
 }
 
 .limited {
-    padding: 10px;
+    padding: 5px;
     letter-spacing: .9px;
     color: red;
 }
@@ -52,5 +52,8 @@
         margin: 15px;
         padding: 10px;
         flex-wrap: wrap;
+    }
+    .question {
+        font-size: 53px;
     }
 }

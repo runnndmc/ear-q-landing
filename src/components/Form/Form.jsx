@@ -3,11 +3,13 @@ import './Form.css'
 
 const Form = () => {
     const handleSubmit = () => {
-        alert("Thank You! We will be in touch shortly")
+        alert("Thank You! We will be in touch shortly");
+        const form = document.querySelector("form")
+        form.reset();
     }
     return(
         <div className="form-wrapper">
-        <h4 className='form-title'>Get It Now</h4>
+        <h3 className='form-title'>GET IT NOW</h3>
         <form className="form" onSubmit={handleSubmit}>
         <input
             className="input-first-name"
