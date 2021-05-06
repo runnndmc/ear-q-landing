@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './Products.css'
 
 import Product from '../components/Product/Product'
-import Search from '../components/Search/Search'
+import Search from '../components/Hero/Hero'
 
 
 import Layout from '../components/shared/Layout/Layout'
