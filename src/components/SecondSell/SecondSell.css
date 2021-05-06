@@ -1,32 +1,47 @@
+.second-sell{
+    display: flex;
+}
 .product {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 10px;
-    box-shadow: 0px 0px 3px 1px #CECECE;
-    transition: 250ms all;
     padding: 20px;
     margin-bottom: 60px;
+    width: 50%;
 }
 
-.product:hover {
-    transform: scale(1.02);
-    opacity: .9;
-}
-
-.product-image {
-    width: 300px;
+.second-product{
+   width: 80%;
 }
 
 .product-name {
     font-size: 24px;
     padding: 10px;
 }
+.detail {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
 
 .price {
     font-size: 18px;
     padding: 10px;
+    letter-spacing: .9px;
 }
+
+.name {
+
+    padding: 5px;
+}
+
+
+.description {
+    padding: 10px;
+    letter-spacing: .9px;
+}
+
 
 @media (max-width: 500px) {
     .product {

@@ -8,19 +8,14 @@ const SecondSell = () => {
   return (
     <div className='second-sell'>
      <div className="product">
-        <img className="product-image" src="https://wizerlist.com/wp-content/uploads/2020/06/oticon-2.jpg" alt="Left and right silver hearing aid pieces" />
+        <img className="second-product" src="https://wizerlist.com/wp-content/uploads/2020/06/oticon-2.jpg" alt="Left and right silver hearing aid pieces" />
         <div className="detail">
-          <div className="name">$500 off</div>
-          <div className="price">Oticon More Technology</div>
-          <div className="description">FOR A LIMITED TIME ONLY WHEN YOU SIGN UP</div>
+          <h2 className="name">Why Oticon More Technology?</h2>
+          <p className="price">Patients are constantly presented with complex, unpredictable sound scenes. It’s the role of the brain to help make meaning of it all. Oticon More is designed to work more like the brain, because it learned through experience.ticon More delivers 30% more sound to the brain, giving the brain more of what it needs to make better sense of sound, so you can get more out of life.</p>
+          <h3 className="description">FOR A LIMITED TIME ONLY WHEN YOU SIGN UP</h3>
         </div>
       </div>
       <Form />
-      {/* <Link className="product" to={`/products/${props._id}`}>
-        <img className="product-image" src={props.imgURL} alt={props.name} />
-        <div className="product-name">{props.name}</div>
-        <div className="price">{`$${props.price}`}</div>
-      </Link> */}
     </div>
   )
 }
