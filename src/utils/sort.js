@@ -1,4 +1,4 @@
-const compareKey = key =>
+const compareKey = key => //define a function that does comparisons that is pushed into sort
   (a, b) => {
     if (a[key] < b[key]) {
       return -1

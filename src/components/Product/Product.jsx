@@ -2,6 +2,7 @@ import React from 'react';
 import './Product.css';
 import { Link } from 'react-router-dom'
 
+//task : render a product card - doing one task
 const Product = (props) => {
   return (
     <>

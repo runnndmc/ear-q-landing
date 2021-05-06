@@ -12,9 +12,14 @@ const App = () => {
           <Products />
         </Route>
         <Route exact path="/products/:id" component={ProductDetail} />
+        <>hello ear q</>
       </Switch>
     </div>
   )
 }
 
 export default App
+
+//const App = () => {
+//  
+//}

@@ -22,6 +22,7 @@ const ProductDetail = (props) => {
   }, [id])
 
   return (
+    //included in the props-children in the /shared/layout
     <Layout>
       <div className="product-detail">
         <img className="product-detail-image" src={product.imgURL} alt={product.name} />
