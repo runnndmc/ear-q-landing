@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from '../Form/Form';
 import './SecondSell.css';
 
 
@@ -14,7 +15,7 @@ const SecondSell = () => {
           <div className="description">FOR A LIMITED TIME ONLY WHEN YOU SIGN UP</div>
         </div>
       </div>
-      <h3>form</h3>
+      <Form />
       {/* <Link className="product" to={`/products/${props._id}`}>
         <img className="product-image" src={props.imgURL} alt={props.name} />
         <div className="product-name">{props.name}</div>
