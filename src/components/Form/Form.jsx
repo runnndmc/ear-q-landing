@@ -6,35 +6,38 @@ const Form = () => {
         alert("Thank You! We will be in touch shortly")
     }
     return(
-        <form className="create-form" onSubmit={handleSubmit}> {/* changes populate inside of state  */}
+        <div className="form-wrapper">
+        <h4 className='form-title'>Get It Now</h4>
+        <form className="form" onSubmit={handleSubmit}>
         <input
-            className="input-name"
-            placeholder='Name'
-            // value={product.name}
+            className="input-first-name"
+            placeholder='First Name'
             name='name'
             required
             autoFocus
-            // onChange={handleChange}
-        />
-        <textarea
-            className="textarea-description"
-            rows={10}
-            placeholder='Description'
-            // value={product.description}
-            name='description'
-            required
-            // onChange={handleChange}
         />
         <input
-            className="input-image-link"
-            placeholder='Image Link'
-            // value={product.imgURL}
+            className="input-last-name"
+            placeholder='Last Name'
+            name='name'
+            required
+            autoFocus
+        />
+        <input
+            className="input-email"
+            placeholder='Email'
+            name='description'
+            required
+        />
+        <input
+            className="input-phone"
+            placeholder='Phone Number'
             name='imgURL'
             required
-            // onChange={handleChange}
         />
         <button type='submit' className="submit-button">Submit</button>
         </form>
+        </div>
     )
 }
 
