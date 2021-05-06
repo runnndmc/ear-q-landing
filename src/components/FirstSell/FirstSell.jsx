@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
-
-import './MainLanding.css'
-import Layout from '../components/shared/Layout/Layout'
 
 
-import Products from '../Products/Products'
-import { getProduct } from '../services/products'
+import './FirstSell.css'
+import Layout from '../shared/Layout/Layout'
 
-const MainLanding = () => {
+const FirstSell = () => {
   // const [product, setProduct] = useState({
   //   name: '',
   //   description: '',
@@ -40,4 +36,4 @@ const MainLanding = () => {
   )
 }
 
-export default MainLanding
+export default FirstSell
