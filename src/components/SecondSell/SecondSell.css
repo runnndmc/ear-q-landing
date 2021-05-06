@@ -1,7 +1,8 @@
 .second-sell{
     display: flex;
+
 }
-.product {
+.selling-point {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -12,45 +13,44 @@
 }
 
 .second-product{
-   width: 80%;
+   width: 70%;
 }
 
-.product-name {
+.second-info {
     font-size: 24px;
     padding: 10px;
 }
-.detail {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.6;
-}
 
-.price {
-    font-size: 18px;
-    padding: 10px;
-    letter-spacing: .9px;
-}
-
-.name {
-
+.question {
+    font-size: 64px;
+    letter-spacing: 1px;
     padding: 5px;
 }
 
-
-.description {
+.answer {
+    font-size: 18px;
     padding: 10px;
     letter-spacing: .9px;
+    line-height: 1.6;
+}
+
+.limited {
+    padding: 10px;
+    letter-spacing: .9px;
+    color: red;
 }
 
 
 @media (max-width: 500px) {
-    .product {
-        width: 100%;
+
+    .second-product {
+        width: 150%;
         margin-bottom: 20px;
     }
-    .product-image {
-        width: 180px;
+    .second-sell {
+        width: 100%;
         margin: 15px;
         padding: 10px;
+        flex-wrap: wrap;
     }
 }
