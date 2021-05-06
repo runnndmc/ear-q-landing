@@ -55,6 +55,7 @@ const Products = () => {
 
   return (
     <Layout> {/* highlighing props.children  wrapper to all -- components / shared*/}
+     <h3>hello dayna</h3>
       <Search onSubmit={handleSubmit} onChange={handleSearch} /> {/* //abstracted into its own component */}
       <Sort onSubmit={handleSubmit} onChange={handleSort} />
       <div className="products">
