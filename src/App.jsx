@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import Products from './screens/Products/Products'
-import ProductDetail from './screens/ProductDetail/ProductDetail'
+
+import MainLanding from './MainLanding/MainLanding'
 import { Route, Switch } from 'react-router-dom'
 
 const App = () => {
@@ -9,9 +9,8 @@ const App = () => {
     <div className="app">
       <Switch>
         <Route exact path="/">
-          <Products />
+          <MainLanding />
         </Route>
-        <Route exact path="/products/:id" component={ProductDetail} />
       </Switch>
     </div>
   )
@@ -19,6 +18,3 @@ const App = () => {
 
 export default App
 
-//const App = () => {
-//  
-//}

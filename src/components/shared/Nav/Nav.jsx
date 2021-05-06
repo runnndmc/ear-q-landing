@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav">
-        <NavLink className="logo" to="/">ProductsApp</NavLink>
+        <NavLink className="logo" to="/"><img src='../EarQ_Logo.jpg' alt="EarQ Logo" width="200"/></NavLink>
       </div>
     </nav>
   )
