@@ -47,6 +47,8 @@ input {
     cursor: pointer;
 }
 
+/*======= MEDIA QUERIES =========*/
+
 @media (max-width: 500px) {
     .form-wrapper{
         flex-direction: wrap;

@@ -59,6 +59,7 @@
     cursor: pointer;
 }
 
+/*======= MEDIA QUERIES =========*/
 
 @media (max-width: 1024px) {
     .name {
