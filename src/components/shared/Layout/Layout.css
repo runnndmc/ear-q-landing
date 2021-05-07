@@ -1,12 +1,12 @@
 .layout {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
 }
 
 .layout-children {
     flex: 2;
-    padding: 100px;
+    padding: 80px;
 }
 
 @media (max-width: 500px) {
@@ -17,7 +17,6 @@
     }
     .layout-children {
         width: 80vw;
-        /* flex: 4; */
         padding: 0px;
         margin: 0px;
         display: flex;
