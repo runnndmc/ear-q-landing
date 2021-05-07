@@ -1,6 +1,6 @@
 .second-sell{
     display: flex;
-    margin-top: 30px;
+    padding: 50px;
 }
 .selling-point {
     display: flex;
@@ -11,9 +11,8 @@
     margin-bottom: 60px;
     width: 50%;
 }
-
 .second-product{
-   width: 70%;
+   width: 60%;
 }
 
 .second-info {
@@ -32,6 +31,7 @@
     padding: 10px;
     letter-spacing: .9px;
     line-height: 1.6;
+    margin: 0;
 }
 
 .limited {
