@@ -9,6 +9,8 @@
     padding: 80px;
 }
 
+/*======= MEDIA QUERIES =========*/
+
 @media (max-width: 500px) {
     .layout {
         height: 100%;

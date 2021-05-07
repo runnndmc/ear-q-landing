@@ -12,14 +12,14 @@ const FirstSell = () => {
   }, [])
 
   function scroll(){
-window.scrollTo(1500, 1500)
+window.scrollTo(1900, 1900)
   }
 
   return (
     <Layout>
       <div className="main-landing">
-        <img className="product-image" src="https://wdh01.azureedge.net/-/media/hidden-hearing/uk/shared/images/hearing-aids/opn/hearing-aid-opn-royalblue-min.png,qh=670,ala=en-GB,aw=1431,arev=64FB,ahash=E654C617D727386CCF31D26A11739E01E951AF19.pagespeed.ce.7EMrzIEPK3.png" alt="Left and right silver hearing aid pieces" />
-        <div className="detail">
+        <img className="product-image" src="https://wdh01.azureedge.net/-/media/hidden-hearing/uk/shared/images/hearing-aids/opn/hearing-aid-opn-royalblue-min.png,qh=670,ala=en-GB,aw=1431,arev=64FB,ahash=E654C617D727386CCF31D26A11739E01E951AF19.pagespeed.ce.7EMrzIEPK3.png"  onClick={scroll} alt="Left and right blue hearing aid pieces" />
+        <div className="detail-wrapper">
           <h2 className="detail-heading">Get $500 off</h2>
           <h3 className="detail-description">Oticon More Technology</h3>
           <p className="description">LIMITED TIME ONLY</p>
