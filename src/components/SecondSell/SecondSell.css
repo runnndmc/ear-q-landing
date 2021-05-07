@@ -11,10 +11,9 @@
     margin-bottom: 60px;
     width: 50%;
 }
-.second-product{
-   width: 60%;
+.image-element{
+    width: 60%;
 }
-
 .second-info {
     font-size: 24px;
     padding: 10px;
@@ -35,6 +34,12 @@
 a {
     color: red;
     text-decoration: underline;
+    transition: 250ms all;
+}
+a:hover{
+    background-color: red;
+    color:white;
+    transform: scale(1.02);
 }
 .limited {
     padding: 5px;
@@ -46,7 +51,7 @@ a {
 
 @media (max-width: 500px) {
 
-    .second-product {
+    .image-element {
         width: 150%;
         margin-bottom: 20px;
     }
