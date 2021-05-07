@@ -12,7 +12,7 @@ const FirstSell = () => {
   }, [])
 
   function scroll(){
-window.scrollTo(1900, 1900)
+window.scrollTo({top: 1900, behavior: "smooth"})
   }
 
   return (
