@@ -25,7 +25,6 @@
     letter-spacing: 1px;
     padding: 5px;
 }
-
 .answer {
     font-size: 18px;
     padding: 10px;
@@ -33,7 +32,10 @@
     line-height: 1.6;
     margin: 0;
 }
-
+a {
+    color: red;
+    text-decoration: underline;
+}
 .limited {
     padding: 5px;
     letter-spacing: .9px;
@@ -55,6 +57,6 @@
         flex-wrap: wrap;
     }
     .question {
-        font-size: 53px;
+        font-size: 50px;
     }
 }

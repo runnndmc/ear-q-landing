@@ -14,7 +14,7 @@ const SecondSell = () => {
         />
         <div className="second-info">
           <h2 className="question">Why Oticon More Technology?</h2>
-          <p className="answer">Patients are constantly presented with complex, unpredictable sound scenes. It’s the role of the brain to help make meaning of it all. Oticon More is designed to work more like the brain, because it learned through experience.ticon More delivers 30% more sound to the brain, giving the brain more of what it needs to make better sense of sound, so you can get more out of life.</p>
+          <p className="answer">Patients are constantly presented with complex, unpredictable sound scenes. It’s the role of the brain to help make meaning of it all. Oticon More is designed to work more like the brain, because it learned through experience.ticon More delivers 30% more sound to the brain, giving the brain more of what it needs to make better sense of sound, so you can get more out of life. For More information, be sure to check out <a href="https://www.oticon.com/professionals/brainhearing-technology/more-technology" target="_blank"  rel="noopener noreferrer"> the Oticon More official website.</a> Sign up with EarQ and recieve $500 off your next purchase with Oticon More.</p>
           <h3 className="limited">FOR A LIMITED TIME ONLY WHEN YOU SIGN UP</h3>
         </div>
       </div>
