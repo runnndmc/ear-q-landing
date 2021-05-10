@@ -12,7 +12,6 @@
 
 ## File Structure
 ```
-. // Our current directory, represented by the '.' symbol.
 ├── README.md
 ├── package-lock.json
 ├── package.json
@@ -27,28 +26,16 @@
     ├── App.jsx 
     ├── App.test.js
     ├── components 
-    │   ├── Product 
-    │   │   ├── Product.css
-    │   │   └── Product.jsx
-    │   ├── FirstSellInfo
-    │   │   ├── FirstSellInfo.css
-    │   │   └── FirstSellInfo.jsx
-    │   ├── FirstSellButton
-    │   │   ├── FirstSellButton.css
-    │   │   └── FirstSellButton.jsx
-    │   ├── SecondSellInfo
-    │   │   ├── SecondSellInfo.css
-    │   │   └── SecondSellInfo.jsx
-    │   ├── SignUp
-    │   │   ├── SignUp.css
-    │   │   └── SignUp.jsx 
+    │   ├── FirstSell
+    │   │   ├── FirstSell.css
+    │   │   └── FirstSell.jsx
+    │   ├── SecondSell
+    │   │   ├── SecondSell.css
+    │   │   └── SecondSell.jsx
     │   ├── Form
     │   │   ├── Form.css
     │   │   └── Form.jsx     
     │   └── shared
-    │       ├── Footer
-    │       │   ├── Footer.css
-    │       │   └── Footer.jsx
     │       ├── Layout
     │       │   ├── Layout.css
     │       │   └── Layout.jsx
@@ -57,9 +44,6 @@
     │           └── Nav.jsx
     ├── index.css
     ├── index.js
-    |── MainLanding
-    │   |── MainLanding.css
-    │   |__ MainLanding.jsx
     ├── serviceWorker.js
     |__ setupTests.js
 
