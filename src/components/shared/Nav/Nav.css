@@ -40,6 +40,8 @@ a {
   color: black;
 }
 
+/*======= MEDIA QUERIES =========*/
+
 @media (max-width: 500px) {
   nav {
     width: 98%;

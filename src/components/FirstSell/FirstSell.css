@@ -1,4 +1,5 @@
 .main-landing {
+<<<<<<< HEAD
   display: flex;
   padding: 50px;
   padding-top: 80px;
@@ -20,31 +21,71 @@
   margin: 0;
   color: red;
   font-style: italic;
+=======
+    display: flex;
+    padding: 90px 0px 50px 50px;
 }
-
+.detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    margin-left: 100px;
+    justify-content: center;
+}
+.detail-heading{
+    font-size: 64px;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-weight: 800;
+    margin: 0;
+    color: red;
+    font-style: italic;
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
+}
 .detail-description {
+<<<<<<< HEAD
   font-size: 35px;
   padding: 5px;
   font-weight: 500;
   margin: 0;
+=======
+    font-size: 40px;
+    padding: 5px;
+    padding-top: 0;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: .0px;
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
-
 .description {
+<<<<<<< HEAD
   padding: 10px;
   letter-spacing: 0.9px;
+=======
+    padding: 10px;
+    letter-spacing: .9px;
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
-
 .product-image {
+<<<<<<< HEAD
   width: 40%;
   padding: 100px 30px;
   box-shadow: 0px 0px 20px 1px #cecece;
   transition: 250ms all;
+=======
+    width: 40%;
+    padding: 100px 30px;
+    box-shadow: 0px 0px 20px 1px #CECECE;
+    transition: 250ms all;
+    cursor: pointer;
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
 
 .product-image:hover {
   transform: scale(1.02);
   opacity: 0.9;
 }
+<<<<<<< HEAD
 .signup-btn {
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
@@ -57,6 +98,27 @@
   cursor: pointer;
 }
 
+=======
+.signup-btn{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    margin-top:40px;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 10px 2px #CECECE;
+    cursor: pointer;
+    transition: 250ms all;
+}
+.signup-btn:hover {
+    transform: scale(1.02);
+    opacity: .9;
+}
+
+/*======= MEDIA QUERIES =========*/
+
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 @media (max-width: 1024px) {
   .name {
     font-size: 32px;
@@ -75,6 +137,7 @@
 }
 
 @media (max-width: 800px) {
+<<<<<<< HEAD
   .product-image {
     width: 300px;
     margin: 15px;
@@ -85,3 +148,27 @@
     padding-top: 120px;
   }
 }
+=======
+    .product-image {
+        width: 300px;
+        margin: 15px;
+        padding: 10px;
+    }
+    .main-landing {
+        padding: 0px;
+        padding-top: 150px;
+    }
+    .detail-wrapper{
+        margin:0;
+    }
+    .detail-heading {
+    font-size: 44px;
+    }
+    .detail-description{
+        font-size: 27px;
+    }
+    .main-landing {
+        padding-bottom: 50px;
+    }
+}
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70

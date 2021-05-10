@@ -8,19 +8,33 @@ const FirstSell = () => {
     window.scrollTo(0, 0);
   }, []);
 
+<<<<<<< HEAD
   function scroll() {
     window.scrollTo(1500, 1500);
+=======
+  useEffect(()=> {
+    window.scrollTo(0,0)
+  }, [])
+
+  function scroll(){
+window.scrollTo({top: 1900, behavior: "smooth"})
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
   }
 
   return (
     <Layout>
       <div className="main-landing">
+<<<<<<< HEAD
         <img
           className="product-image"
           src="https://wdh01.azureedge.net/-/media/hidden-hearing/uk/shared/images/hearing-aids/opn/hearing-aid-opn-royalblue-min.png,qh=670,ala=en-GB,aw=1431,arev=64FB,ahash=E654C617D727386CCF31D26A11739E01E951AF19.pagespeed.ce.7EMrzIEPK3.png"
           alt="Left and right silver hearing aid pieces"
         />
         <div className="detail">
+=======
+        <img className="product-image" src="https://wdh01.azureedge.net/-/media/hidden-hearing/uk/shared/images/hearing-aids/opn/hearing-aid-opn-royalblue-min.png,qh=670,ala=en-GB,aw=1431,arev=64FB,ahash=E654C617D727386CCF31D26A11739E01E951AF19.pagespeed.ce.7EMrzIEPK3.png"  onClick={scroll} alt="Left and right blue hearing aid pieces" />
+        <div className="detail-wrapper">
+>>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
           <h2 className="detail-heading">Get $500 off</h2>
           <h3 className="detail-description">Oticon More Technology</h3>
           <p className="description">LIMITED TIME ONLY</p>
