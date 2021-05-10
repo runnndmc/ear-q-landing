@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-.second-sell {
-  display: flex;
-  margin-top: 30px;
-=======
+
 .second-sell{
     display: flex;
     padding: 50px;
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
 .selling-point {
   display: flex;
@@ -17,14 +12,9 @@
   margin-bottom: 60px;
   width: 50%;
 }
-<<<<<<< HEAD
 
-.second-product {
-  width: 70%;
-=======
 .image-element{
     width: 60%;
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
 .second-info {
   font-size: 24px;
@@ -37,12 +27,6 @@
   padding: 5px;
 }
 .answer {
-<<<<<<< HEAD
-  font-size: 18px;
-  padding: 10px;
-  letter-spacing: 0.9px;
-  line-height: 1.6;
-=======
     font-size: 18px;
     padding: 10px;
     letter-spacing: .9px;
@@ -58,7 +42,6 @@ a:hover{
     background-color: red;
     color:white;
     transform: scale(1.02);
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
 .limited {
   padding: 5px;
@@ -66,23 +49,6 @@ a:hover{
   color: red;
 }
 
-<<<<<<< HEAD
-@media (max-width: 500px) {
-  .second-product {
-    width: 150%;
-    margin-bottom: 20px;
-  }
-  .second-sell {
-    width: 100%;
-    margin: 15px;
-    padding: 10px;
-    flex-wrap: wrap;
-  }
-  .question {
-    font-size: 53px;
-  }
-}
-=======
 /*======= MEDIA QUERIES =========*/
 
 @media (max-width: 500px) {
@@ -101,4 +67,3 @@ a:hover{
         font-size: 50px;
     }
 }
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
