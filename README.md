@@ -12,7 +12,6 @@
 
 ## File Structure
 ```
-. // Our current directory, represented by the '.' symbol.
 ├── README.md
 ├── package-lock.json
 ├── package.json
