@@ -1,59 +1,57 @@
-.second-sell{
-    display: flex;
-    margin-top: 30px;
+.second-sell {
+  display: flex;
+  margin-top: 30px;
 }
 .selling-point {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 10px;
-    padding: 20px;
-    margin-bottom: 60px;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 20px;
+  margin-bottom: 60px;
+  width: 50%;
 }
 
-.second-product{
-   width: 70%;
+.second-product {
+  width: 70%;
 }
 
 .second-info {
-    font-size: 24px;
-    padding: 10px;
+  font-size: 24px;
+  padding: 10px;
 }
 
 .question {
-    font-size: 64px;
-    letter-spacing: 1px;
-    padding: 5px;
+  font-size: 64px;
+  letter-spacing: 1px;
+  padding: 5px;
 }
 
 .answer {
-    font-size: 18px;
-    padding: 10px;
-    letter-spacing: .9px;
-    line-height: 1.6;
+  font-size: 18px;
+  padding: 10px;
+  letter-spacing: 0.9px;
+  line-height: 1.6;
 }
 
 .limited {
-    padding: 5px;
-    letter-spacing: .9px;
-    color: red;
+  padding: 5px;
+  letter-spacing: 0.9px;
+  color: red;
 }
 
-
 @media (max-width: 500px) {
-
-    .second-product {
-        width: 150%;
-        margin-bottom: 20px;
-    }
-    .second-sell {
-        width: 100%;
-        margin: 15px;
-        padding: 10px;
-        flex-wrap: wrap;
-    }
-    .question {
-        font-size: 53px;
-    }
+  .second-product {
+    width: 150%;
+    margin-bottom: 20px;
+  }
+  .second-sell {
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .question {
+    font-size: 53px;
+  }
 }
