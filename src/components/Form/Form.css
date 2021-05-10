@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-.form-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-=======
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 .form-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
 .form-title {
   font-size: 38px;
@@ -33,21 +25,11 @@
   margin: auto;
   margin-top: -30px;
 }
-<<<<<<< HEAD
-.input-first-name,
-.input-last-name,
-.input-email,
-.input-phone {
-  font-size: 48px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-bottom: 40px;
-=======
 .input-first-name,  .input-last-name, .input-email, .input-phone{
     font-size: 50px;
     font-family: 'Old Standard TT', serif;
     font-weight: 500;
     margin-bottom: 40px;
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
 input {
   border-top-style: hidden;
@@ -56,17 +38,6 @@ input {
   border-bottom-style: groove;
 }
 .submit-button {
-<<<<<<< HEAD
-  font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 40px;
-  margin-top: 40px;
-  background-color: black;
-  color: white;
-  border: none;
-  box-shadow: 2px 2px 10px 2px #cecece;
-  cursor: pointer;
-=======
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     height: 40px;
@@ -77,7 +48,6 @@ input {
     box-shadow: 2px 2px 10px 2px #CECECE;
     cursor: pointer;
     transition: 250ms all;
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
 }
 .submit-button:hover{
     transform: scale(1.02);
@@ -87,30 +57,6 @@ input {
 /*======= MEDIA QUERIES =========*/
 
 @media (max-width: 500px) {
-<<<<<<< HEAD
-  .form-wrapper {
-    flex-direction: wrap;
-  }
-  .form-title {
-    font-size: 25px;
-    width: 80%;
-    margin-left: 100%;
-    padding: 25px;
-  }
-  .form {
-    padding-top: 150px;
-    width: 100%;
-    padding: 50px;
-    margin-left: 25%;
-  }
-  .input-first-name,
-  .input-last-name,
-  .input-email,
-  .input-phone {
-    font-size: 25px;
-  }
-}
-=======
     .form-wrapper{
         flex-direction: wrap;
     }
@@ -131,4 +77,3 @@ input {
         font-size: 25px;
     }
 }
->>>>>>> cb9c3cd03683f48c8409e8b3ae5891beb82caa70
